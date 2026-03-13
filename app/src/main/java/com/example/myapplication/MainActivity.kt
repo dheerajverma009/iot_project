@@ -584,7 +584,7 @@ class MainActivity : ComponentActivity() {
 
                 if (address == mac) {
                     Log.d(TAG, "onScan")
-                    BluetoothLESDK.connect(address, "865958070000552", false)
+                    BluetoothLESDK.connect(address, "865958070000552", true)
                 }
             }
 
